@@ -50,26 +50,33 @@ p {
 	color:#333;
 }
 
-/* Gallery
+/* Lists
 ------------------------------------------*/
 
-.gallery {
+.list--no-bullets {
 	padding:0;
-	display:block;
-}
-
-.gallery li {
-	padding:0;
-	margin:0 1em 0 0;
 	list-style:none;
-	float:left;
 }
 
-.gallery img {
-	border: 6px solid #eee;
+.list--custom-bullets {
+	padding:0;
+	list-style:none;
 }
 
-/* misc.
+.list--custom-bullets li {
+	
+}
+
+.minus {
+	height:16px;
+	width:16px;
+	margin:0 .5em 0 1em;
+	display:inline-block;
+	background: url(images/minus-icon.png);
+}
+
+
+/* Misc.
 ------------------------------------------*/
 
 .clearfix:after {
