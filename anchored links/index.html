@@ -7,7 +7,6 @@
 		<title>The Website Title</title>
 		<meta name="description" content="The page description goes here, if this is the front page the description will be about the website content." />
 		<link rel="stylesheet" href="stylesheet.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 	</head>
 
@@ -18,13 +17,6 @@
 				<li><a class="scroll" href="index.html">Home</a></li>
 				<li><a class="scroll" href="#secondary">Things</a></li>
 			</ul>
-
-			<script>
-	$(".scroll").click(function(event){		
-		event.preventDefault();
-		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-	});
-			</script>
 
 		</div> <!-- header-->
 
