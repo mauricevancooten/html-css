@@ -41,7 +41,7 @@ body {
 /* Typography
 ------------------------------------------*/
 
-h1{
+h1 {
 	color: navy;
 
 }
@@ -50,30 +50,46 @@ p {
 	color:#333;
 }
 
-/* Lists
+/* social media.
 ------------------------------------------*/
 
-.list--no-bullets {
-	padding:0;
-	list-style:none;
+.social-channels {
+list-style: none;
+padding: 0;
 }
 
-.list--custom-bullets {
-	padding:0;
-	list-style:none;
+.social-channels li {
+display: inline-block;
+margin-right: .5em;
+}
+
+.social-channels a {
+display: block;
+width: 32px;
+height: 32px;
+background-size: 32px 32px;
+border-radius: 3px;
+}
+
+.social-channels a:hover {
+opacity:.8;
+border-radius: 3px;
+}
+
+.social-channels a.facebook {
+background-image: url(images/facebook.svg);
+}
+
+.social-channels a.twitter {
+background-image: url(images/twitter.svg);
+}
+
+.social-channels a.youtube {
+background-image: url(images/youtube.svg);
 }
 
 
-.minus {
-	height:16px;
-	width:16px;
-	margin:0 .5em 0 1em;
-	display:inline-block;
-	background: url(images/minus-icon.png);
-}
-
-
-/* Misc.
+/* misc.
 ------------------------------------------*/
 
 .clearfix:after {
@@ -84,3 +100,6 @@ p {
 	visibility:hidden;
 
 }
+
+
+
