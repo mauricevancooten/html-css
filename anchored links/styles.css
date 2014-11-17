@@ -24,56 +24,76 @@ body {
 /* Page structure
 ------------------------------------------*/
 
+#sticky {
+	margin: 0 auto;
+	padding: 1em auto;
+	width:100%;
+	position:fixed;
+	background:#eee;
+	background: rgba(238,238,238,0.7);
+	top:0;
+}
+
 #wrapper {
 	width: 100%;
 	padding: 1em 0;
 	background: #fff;
+	padding-top:8em;
 }
 
 #container {
 	margin: 0 auto;
 	padding: 0 auto;
 	width: 100%;
+	max-width: 960px;	
+}
+
+#secondary {
+	padding-top:8em;
+}
+
+#footer {
+	margin: 0 auto;
+	padding: 0 auto;
+	width:100%;
 	max-width: 960px;
-		
 }
 
 /* Typography
 ------------------------------------------*/
 
-h1{
-	color: navy;
 
-}
 
-p {
-	color:#333;
-}
-
-/* Lists
+/* Navigation
 ------------------------------------------*/
 
-.list--no-bullets {
-	padding:0;
+nav ul {
+	padding:2em 0 0 2em;
+}
+
+nav li {
+	float: left;
+	margin: 0 0 20px 5px;
 	list-style:none;
 }
 
-.list--custom-bullets {
-	padding:0;
-	list-style:none;
+nav li a {
+	text-decoration:none;
+	padding: 5px 15px;
+	background:#ccc;
+	border-radius: 15px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+
 }
 
-
-.minus {
-	height:16px;
-	width:16px;
-	margin:0 .5em 0 1em;
-	display:inline-block;
-	background: url(images/minus-icon.png);
+nav li a:hover {
+	background:#333;
 }
 
-
-/* Misc.
+/* misc.
 ------------------------------------------*/
 
 .clearfix:after {
@@ -84,3 +104,6 @@ p {
 	visibility:hidden;
 
 }
+
+
+
