@@ -1,0 +1,100 @@
+/*
+
+Title: Stylesheet Template
+
+Author: Maurice van Cooten
+
+*/
+
+a {
+	color: blue;
+}
+
+a:hover {
+	color: lightblue;
+}
+
+body {
+	background: #eee;
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin:0;
+}
+
+/* Page structure
+------------------------------------------*/
+
+#sticky {
+	margin: 0 auto;
+	padding: .5em auto;
+	width:100%;
+	position:fixed;
+	background:#eee;
+	background: rgba(238,238,238,0.7);
+	top:0;
+}
+
+header,
+nav,
+#container,
+footer {
+	margin: 0 auto;
+	padding: 0 auto;
+	width:100%;
+	max-width: 960px;
+}
+
+#wrapper {
+	width:100%;
+	background: #fff;
+	padding:1em 0;
+}
+
+section {
+	padding-top:6em;
+}
+
+
+/* Navigation
+------------------------------------------*/
+
+nav ul {
+	padding:2em 0 0 2em;
+}
+
+nav li {
+	float: left;
+	margin: 0 0 20px 5px;
+	list-style:none;
+}
+
+nav li a {
+	text-decoration:none;
+	padding: 5px 15px;
+	background:#ccc;
+	border-radius: 15px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+
+}
+
+nav li a:hover {
+	background:#333;
+}
+
+/* misc.
+------------------------------------------*/
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;
+
+}
+
+
+
