@@ -41,7 +41,7 @@ body {
 /* Typography
 ------------------------------------------*/
 
-h1{
+h1 {
 	color: navy;
 
 }
@@ -50,29 +50,60 @@ p {
 	color:#333;
 }
 
-/* Gallery
+/* social media.
 ------------------------------------------*/
 
-.gallery {
-	padding:0;
-	display:block;
+.social-channels {
+list-style: none;
+padding: 0;
 }
 
-.gallery li {
-	padding:0;
-	margin:0 1em 0 0;
-	list-style:none;
-	float:left;
+.social-channels li {
+display: inline-block;
+margin-right: .5em;
 }
 
-.gallery img {
-	border: 6px solid #eee;
+.social-channels a {
+border-radius: 3px;
 }
 
-.gallery img:hover {
-	border: 6px solid green;
+.social-channels a:hover {
+opacity:.8;
+border-radius: 3px;
 }
 
+.facebook {
+	width:32px;
+	height:32px;
+background: url(images/sprites.jpg);
+background-position:0 64px;
+}
+
+.facebook:hover {
+	background-position:0 32px;
+}
+
+.twitter {
+	width:32px;
+	height:32px;
+background: url(images/sprites.jpg);
+background-position:64px 64px;
+}
+
+.twitter:hover {
+	background-position:64px 32px;
+}
+
+.youtube {
+	width:32px;
+	height:32px;
+background: url(images/sprites.jpg);
+background-position:32px 64px;
+}
+
+.youtube:hover {
+	background-position:32px 32px;
+}
 /* misc.
 ------------------------------------------*/
 
@@ -84,3 +115,6 @@ p {
 	visibility:hidden;
 
 }
+
+
+
