@@ -6,6 +6,14 @@ Author: Maurice van Cooten
 
 */
 
+a {
+	color: blue;
+}
+
+a:hover {
+	color: lightblue;
+}
+
 body {
 	background: #eee;
 	font-size: 16px;
@@ -16,40 +24,30 @@ body {
 /* Page structure
 ------------------------------------------*/
 
-
 #wrapper {
-	width:100%;
-	padding:1em 0;
+	width: 100%;
+	padding: 1em 0;
 	background: #fff;
 }
 
 #container {
 	margin: 0 auto;
 	padding: 0 auto;
-	width:100%;
-	max-width: 960px;		
+	width: 100%;
+	max-width: 960px;
+		
 }
 
-/* Specials
+/* Typography
 ------------------------------------------*/
 
-.specials {
-	background: #fff;
-	background: rgba(250,250,250,0.8);
-	width:100%;
-	border:1px solid #ccc;
-	border-radius:8px;
-	position:relative;
-	min-height:72px;
-	padding:1em;
-	font-style:italic;
+h1{
+	color: navy;
+
 }
 
-.specials img {
-	position: absolute; 
-	top: -1px; 
-	right: -1px; 
-	border: 0;
+p {
+	color:#333;
 }
 
 /* Gallery
@@ -64,20 +62,18 @@ body {
 	padding:0;
 	margin:0 1em 0 0;
 	list-style:none;
-	border: 6px solid #eee;
 	float:left;
+
 }
 
-.gallery li:hover {
+.gallery li a img {
+	border: 6px solid #eee;
+	display:block;
+	
+}
+
+.gallery img:hover {
 	border: 6px solid green;
-}
-
-.gallery a {
-	display:block;
-}
-
-.gallery img {
-	display:block;
 }
 
 .gallery li div.item {
@@ -96,9 +92,7 @@ body {
 	width:100%;
 }
 
-
-
-/* Misc.
+/* misc.
 ------------------------------------------*/
 
 .clearfix:after {
