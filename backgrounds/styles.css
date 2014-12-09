@@ -23,6 +23,10 @@ body {
 /* Page structure
 ------------------------------------------*/
 
+#about {
+	background: url(images/wall-texture-web.jpg);
+}
+
 #stuff {
 	background: url(images/checkers.png) repeat-y;
 }
