@@ -34,7 +34,6 @@ body {
 ------------------------------------------*/
 
 .logo h1 {
-	position: absolute;
 	left: -999em;
 	position: fixed;
 }
