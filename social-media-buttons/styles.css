@@ -1,0 +1,109 @@
+/*
+
+Title: Stylesheet Template
+
+Author: Maurice van Cooten
+
+*/
+
+body {
+	background: #eee;
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin:0;
+}
+
+a {
+	color: crimson;
+}
+
+a:hover {
+	color: red;
+}
+
+/* Layout
+------------------------------------------*/
+
+#wrapper {
+	width: 100%;
+	padding: 1em 0;
+	background: #fff;
+}
+
+header,
+#container,
+footer {
+	margin: 0 auto;
+	width: 88%;
+	max-width: 960px;
+		
+}
+
+/* social media.
+------------------------------------------*/
+
+.social-channels {
+list-style: none;
+padding: 0;
+}
+
+.social-channels li {
+display: inline-block;
+margin-right: .5em;
+}
+
+.social-channels a {
+display: block;
+width: 32px;
+height: 32px;
+background-size: 32px 32px;
+border-radius: 3px;
+}
+
+.social-channels a:hover {
+opacity:.8;
+border-radius: 3px;
+}
+
+.social-channels a.facebook {
+background-image: url(images/facebook.png);
+}
+
+.social-channels a.twitter {
+background-image: url(images/twitter.png);
+}
+
+.social-channels a.youtube {
+background-image: url(images/youtube.png);
+}
+
+.social-channels a.linkedin {
+background-image: url(images/linkedin.png);
+}
+
+.social-channels a.github {
+background-image: url(images/github.png);
+}
+
+.social-channels a.flickr {
+background-image: url(images/flickr.png);
+}
+
+.social-channels a.googleplus {
+background-image: url(images/googleplus.png);
+}
+
+.social-channels a.pinterest {
+background-image: url(images/pinterest.png);
+}
+
+/* Misc.
+------------------------------------------*/
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;
+}

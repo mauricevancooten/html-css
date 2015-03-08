@@ -14,19 +14,19 @@ body {
 }
 
 a {
-	color:crimson;
+	color: crimson;
 }
 
 a:hover {
-	color:pink;
+	color: pink;
 }
 
 /* Layout
 ------------------------------------------*/
 
 #wrapper {
-	width:100%;
-	padding:1em 0;
+	width: 100%;
+	padding: 1em 0;
 	background: #fff;
 }
 
@@ -34,26 +34,28 @@ header,
 #container,
 footer {
 	margin: 0 auto;
-	width:88%;
-	max-width: 960px;		
+	width: 88%;
+	max-width: 960px;
+		
 }
 
-/* Absolute Positioning
+/* Lists
 ------------------------------------------*/
 
-.specials {
-	width:92%;
-	border:1px solid #ccc;
-	border-radius:8px;
-	position:relative;
-	min-height:72px;
-	padding:1em;
-	font-style:italic;
+.list--no-bullets {
+	padding:0;
+	list-style:none;
 }
 
-.specials img {
-	position: absolute; 
-	top: -1px; 
-	right: -1px; 
-	border: 0;
+.list--custom-bullets {
+	padding:0;
+	list-style:none;
+}
+
+.minus {
+	height:16px;
+	width:16px;
+	margin:0 .5em 0 1em;
+	display:inline-block;
+	background: url(images/minus-icon.png);
 }

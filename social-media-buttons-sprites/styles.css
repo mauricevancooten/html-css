@@ -1,0 +1,142 @@
+/*
+
+Title: Stylesheet Template
+
+Author: Maurice van Cooten
+
+*/
+
+body {
+	background: #eee;
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin:0;
+}
+
+a {
+	color: crimson;
+}
+
+a:hover {
+	color: red;
+}
+
+/* Layout
+------------------------------------------*/
+
+#wrapper {
+	width: 100%;
+	padding: 1em 0;
+	background: #fff;
+}
+
+header,
+#container,
+footer {
+	margin: 0 auto;
+	width: 88%;
+	max-width: 960px;
+		
+}
+
+/* social media.
+------------------------------------------*/
+
+.social-channels {
+	list-style: none;
+	padding: 0;
+}
+
+.social-channels li {
+	display: inline-block;
+	margin-right: .5em;
+	border-radius: 3px;
+}
+
+.facebook {
+	width:33px;
+	height:33px;
+	background: url(images/sprite.png);
+	background-position:0 66px;
+}
+
+.facebook:hover {
+	background-position:0 33px;
+}
+
+.github {
+	width:33px;
+	height:33px;
+	background: url(images/sprite.png);
+	background-position:66px 66px;
+}
+
+.github:hover {
+	background-position:66px 33px;
+}
+
+.flickr {
+	width:33px;
+	height:33px;
+	background: url(images/sprite.png);
+	background-position:33px 66px;
+}
+
+.flickr:hover {
+	background-position:33px 33px;
+}
+
+.googleplus {
+	width:33px;
+	height:33px;
+	background: url(images/sprite.png);
+	background-position:99px 66px;
+}
+
+.googleplus:hover {
+	background-position:99px 33px;
+}
+
+.linkedin {
+	width:33px;
+	height:33px;
+	background: url(images/sprite.png);
+	background-position:132px 66px;
+}
+
+.linkedin:hover {
+	background-position:132px 33px;
+}
+
+.pinterest {
+	width:33px;
+	height:33px;
+	background: url(images/sprite.png);
+	background-position:165px 66px;
+}
+
+.pinterest:hover {
+	background-position:165px 33px;
+}
+
+.twitter {
+	width:33px;
+	height:33px;
+	background: url(images/sprite.png);
+	background-position:198px 66px;
+}
+
+.twitter:hover {
+	background-position:198px 33px;
+}
+
+.youtube {
+	width:33px;
+	height:33px;
+	background: url(images/sprite.png);
+	background-position:231px 66px;
+}
+
+.youtube:hover {
+	background-position:231px 33px;
+}

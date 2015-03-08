@@ -6,21 +6,61 @@ Author: Maurice van Cooten
 
 */
 
-a {
-	color: crimson;
-}
-
-a:hover {
-	color: magenta;
-}
-
 body {
 	font-size: 16px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin:0;
 }
 
-/* Page structure
+a {
+	color: crimson;
+}
+
+a:hover {
+	color: red;
+}
+
+/* Layout
+------------------------------------------*/
+
+header,
+#container,
+footer {
+	margin: 0 auto;
+	width:88%;
+	max-width: 960px;
+}
+
+#wrapper {
+	width:100%;
+	padding:1em 0;
+}
+
+/* Navigation
+------------------------------------------*/
+
+nav ul {
+	padding:0;	
+}
+
+nav ul li {
+	float: left;
+	margin: 0 5px 0 0;
+	list-style:none;
+}
+
+nav ul li a {
+	text-decoration:none;
+	padding: 5px 15px;
+	background:#eee;
+	border-radius: 15px;
+}
+
+nav ul li a:hover {
+	background: pink;
+}
+
+/* Backgrounds
 ------------------------------------------*/
 
 #about {
@@ -44,46 +84,6 @@ body {
 	background-size:cover;
 }
 
-header,
-nav,
-#container,
-footer {
-	margin: 0 auto;
-	padding: 0 auto;
-	width:100%;
-	max-width: 960px;
-}
-
-#wrapper {
-	width:100%;
-	padding:1em 0;
-}
-
-/* Navigation
-------------------------------------------*/
-
-nav ul {
-	float:left;
-	padding:0;	
-}
-
-nav ul li {
-	float: left;
-	margin: 0 0 0 5px;
-	list-style:none;
-}
-
-nav ul li a {
-	text-decoration:none;
-	padding: 5px 15px;
-	background:#ccc;
-	border-radius: 15px;
-}
-
-nav ul li a:hover {
-	background: #666;
-}
-
 /* Misc.
 ------------------------------------------*/
 
@@ -93,5 +93,4 @@ nav ul li a:hover {
 	height: 0;
 	clear:both;
 	visibility:hidden;
-
 }

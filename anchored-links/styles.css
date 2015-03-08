@@ -6,14 +6,6 @@ Author: Maurice van Cooten
 
 */
 
-a {
-	color: blue;
-}
-
-a:hover {
-	color: lightblue;
-}
-
 body {
 	background: #eee;
 	font-size: 16px;
@@ -21,7 +13,15 @@ body {
 	margin:0;
 }
 
-/* Page structure
+a {
+	color: crimson;
+}
+
+a:hover {
+	color: red;
+}
+
+/* Layout
 ------------------------------------------*/
 
 #sticky {
@@ -35,11 +35,9 @@ body {
 }
 
 header,
-nav,
 #container,
 footer {
 	margin: 0 auto;
-	padding: 0 auto;
 	width:100%;
 	max-width: 960px;
 }
@@ -51,7 +49,7 @@ footer {
 }
 
 section {
-	padding-top:6em;
+	padding-top:4em;
 }
 
 
@@ -59,32 +57,27 @@ section {
 ------------------------------------------*/
 
 nav ul {
-	padding:2em 0 0 2em;
+	padding:.5em 0 0;
 }
 
 nav li {
 	float: left;
-	margin: 0 0 20px 5px;
+	margin: 0 .5em 0 0;
 	list-style:none;
 }
 
 nav li a {
 	text-decoration:none;
 	padding: 5px 15px;
-	background:#ccc;
+	background:#fff;
 	border-radius: 15px;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-
 }
 
 nav li a:hover {
-	background:#333;
+	background: pink;
 }
 
-/* misc.
+/* Misc.
 ------------------------------------------*/
 
 .clearfix:after {
@@ -93,7 +86,6 @@ nav li a:hover {
 	height: 0;
 	clear:both;
 	visibility:hidden;
-
 }
 
 

@@ -7,11 +7,19 @@ Author: Maurice van Cooten
 */
 
 body {
-	background: url("images/handmadepaper.png");
+	background:#fff;
 	font-size: 16px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin:0;
 	color:#58450c;
+}
+
+a {
+	color:crimson;
+}
+
+a:hover {
+	color:red;
 }
 
 /* Page structure
@@ -21,13 +29,18 @@ body {
 #wrapper {
 	width:100%;
 	padding:1em 0;
+	background: url("images/handmadepaper.png");
+}
+
+header,
+#container,
+footer {
+	margin: 0 auto;
+	width:88%;
+	max-width: 960px;
 }
 
 #container {
-	margin: 0 auto;
-	padding: 0 auto;
-	width:88%;
-	max-width: 960px;
 	background: rgba(250,250,250,0.5);
 	box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
 	border-radius: 12px;
@@ -59,12 +72,9 @@ h6 {
 	color:#452a08;
 }
 
-h1 {
-	text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
-}
-
 h2 {
 	font-weight:200;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
 
 hr {
