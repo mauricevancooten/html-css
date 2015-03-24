@@ -14,7 +14,7 @@ body {
 }
 
 a {
-	color: crimson;
+	color:crimson;
 }
 
 a:hover {
@@ -53,90 +53,94 @@ footer {
 	border-radius: 3px;
 }
 
-.facebook {
+.social-channels li a {
+	display:block;
+}
+
+.facebook a {
 	width:33px;
 	height:33px;
 	background: url(images/sprite.png);
 	background-position:0 66px;
 }
 
-.facebook:hover {
+.facebook:hover a {
 	background-position:0 33px;
 }
 
-.github {
+.github a {
 	width:33px;
 	height:33px;
 	background: url(images/sprite.png);
 	background-position:66px 66px;
 }
 
-.github:hover {
+.github:hover a {
 	background-position:66px 33px;
 }
 
-.flickr {
+.flickr a {
 	width:33px;
 	height:33px;
 	background: url(images/sprite.png);
 	background-position:33px 66px;
 }
 
-.flickr:hover {
+.flickr:hover a {
 	background-position:33px 33px;
 }
 
-.googleplus {
+.googleplus a {
 	width:33px;
 	height:33px;
 	background: url(images/sprite.png);
 	background-position:99px 66px;
 }
 
-.googleplus:hover {
+.googleplus:hover a {
 	background-position:99px 33px;
 }
 
-.linkedin {
+.linkedin a {
 	width:33px;
 	height:33px;
 	background: url(images/sprite.png);
 	background-position:132px 66px;
 }
 
-.linkedin:hover {
+.linkedin:hover a {
 	background-position:132px 33px;
 }
 
-.pinterest {
+.pinterest a {
 	width:33px;
 	height:33px;
 	background: url(images/sprite.png);
 	background-position:165px 66px;
 }
 
-.pinterest:hover {
+.pinterest:hover a {
 	background-position:165px 33px;
 }
 
-.twitter {
+.twitter a {
 	width:33px;
 	height:33px;
 	background: url(images/sprite.png);
 	background-position:198px 66px;
 }
 
-.twitter:hover {
+.twitter:hover a {
 	background-position:198px 33px;
 }
 
-.youtube {
+.youtube a {
 	width:33px;
 	height:33px;
 	background: url(images/sprite.png);
 	background-position:231px 66px;
 }
 
-.youtube:hover {
+.youtube:hover a {
 	background-position:231px 33px;
 }
