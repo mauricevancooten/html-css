@@ -15,6 +15,7 @@ body {
 
 a {
 	color: crimson;
+	text-decoration:none;
 }
 
 a:hover {
@@ -24,7 +25,7 @@ a:hover {
 /* Layout
 ------------------------------------------*/
 
-#sticky {
+.sticky {
 	margin: 0 auto;
 	padding: .5em auto;
 	width:100%;
@@ -35,15 +36,14 @@ a:hover {
 }
 
 header,
-#container,
+.container,
 footer {
 	margin: 0 auto;
-	width:100%;
+	width:88%;
 	max-width: 960px;
 }
 
-#wrapper {
-	width:100%;
+.wrapper {
 	background: #fff;
 	padding:1em 0;
 }
@@ -57,23 +57,23 @@ section {
 ------------------------------------------*/
 
 nav ul {
-	padding:.5em 0 0;
+	padding:0;
 }
 
-nav li {
+nav ul li {
 	float: left;
-	margin: 0 .5em 0 0;
+	margin-right: .5em;
 	list-style:none;
 }
 
-nav li a {
-	text-decoration:none;
-	padding: 5px 15px;
-	background:#fff;
+nav ul li a {
+	padding: .5em 1em;
+	background:#ccc;
 	border-radius: 15px;
+	transition: all 1s ease-in-out;
 }
 
-nav li a:hover {
+nav ul li a:hover {
 	background: pink;
 }
 
@@ -87,6 +87,3 @@ nav li a:hover {
 	clear:both;
 	visibility:hidden;
 }
-
-
-

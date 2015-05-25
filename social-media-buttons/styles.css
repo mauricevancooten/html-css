@@ -15,6 +15,7 @@ body {
 
 a {
 	color: crimson;
+	text-decoration: none;
 }
 
 a:hover {
@@ -24,19 +25,18 @@ a:hover {
 /* Layout
 ------------------------------------------*/
 
-#wrapper {
-	width: 100%;
-	padding: 1em 0;
-	background: #fff;
-}
-
 header,
-#container,
+.container,
 footer {
 	margin: 0 auto;
 	width: 88%;
-	max-width: 960px;
-		
+	max-width: 960px;		
+}
+
+.wrapper {
+	width: 100%;
+	padding: 1em 0;
+	background: #fff;
 }
 
 /* social media.

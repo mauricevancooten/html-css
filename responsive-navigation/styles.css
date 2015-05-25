@@ -15,6 +15,7 @@ body {
 
 a {
 	color: crimson;
+	text-decoration: none;
 }
 
 a:hover {
@@ -24,18 +25,17 @@ a:hover {
 /* Layout
 ------------------------------------------*/
 
-#wrapper {
-	width: 100%;
-	padding: 1em 0;
-	background: #fff;
-}
-
 header,
-#container,
+.container,
 footer {
 	margin: 0 auto;
 	width: 88%;
 	max-width: 960px;		
+}
+
+.wrapper {
+	padding: 1em 0;
+	background: #fff;
 }
 
 /* Navigation
@@ -59,13 +59,10 @@ nav ul li:hover {
 }
 
 nav ul li a {
-	text-decoration:none;
 	width:100%;
 	padding:1em 0;
 	display:block;
 }
-
-
 
 /* Misc.
 ------------------------------------------*/
@@ -83,19 +80,19 @@ nav ul li a {
 
 @media screen and (min-width: 800px) {
 
-nav {
- 	border-top:1px solid #fff;
- }
+	nav {
+	 	border-top:1px solid #fff;
+	}
 
-nav ul li {
-  	float:left;
-  	width:19.8%;
-  	border-right:1px solid #fff;
-  	border-top:none;
-  }
+	nav ul li {
+	  	float:left;
+	  	width:19.8%;
+	  	border-right:1px solid #fff;
+	  	border-top:none;
+	}
 
-nav ul li:nth-child(1) {
-  	border-left:1px solid #fff;
-  }
+	nav ul li:nth-child(1) {
+	  	border-left:1px solid #fff;
+	}
 
 }
