@@ -1,0 +1,13 @@
+.overlay {
+    background:url(images/sunflower.jpg) no-repeat;
+    background-size:cover;
+    width:800px;
+    height:536px;
+}
+
+.overlay span {
+    background:url(images/pattern-2.png);
+    width:100%;
+    height:100%;
+    display:block;
+}
