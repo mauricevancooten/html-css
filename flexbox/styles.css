@@ -46,11 +46,39 @@ img {
 /* FlexBox  Gallery
 ------------------------------------------*/
 
-.gallery {
-	 display: flex; 
+img {
+	display:block;
 }
 
-.gallery li {
-	flex:3;
+ul {
+	padding:0;
 	list-style:none;
+	background:pink;
+}
+
+.gallery {
+	display:flex;
+	justify-content: flex-end;
+}
+
+.gallery-2 {
+	display:flex;
+	justify-content: center;
+}
+
+.gallery-3 {
+	display:flex;
+	justify-content: space-between;
+	
+}
+
+.gallery-4 {
+	display:flex;
+	justify-content: space-around;
+}
+
+.gallery-5 {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
 }
