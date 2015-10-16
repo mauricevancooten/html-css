@@ -1,0 +1,174 @@
+/*
+
+Title: Stylesheet Template
+
+Author: Maurice van Cooten
+
+*/
+
+body {
+  background: #eee;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin:0;
+}
+
+a {
+  color:crimson;
+  text-decoration:none;
+}
+
+a:hover {
+  color:red;
+}
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+  width:88%;
+  max-width: 960px;
+}
+
+.wrapper {
+  padding:1em 0;
+  background: #fff;
+}
+
+/* Animation spin
+------------------------------------------*/
+
+@-webkit-keyframes spin {
+  from {
+  	transform: rotate(0deg);
+  }
+  to {
+  	transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+   from {
+   	transform: rotate(0deg);
+  }
+  to {
+  	transform: rotate(360deg);
+  }
+}
+
+.rotate:hover {
+	-webkit-animation: spin 5s infinite;
+	-moz-animation: spin 5s infinite;
+	-o-animation: spin 5s infinite;
+	animation: spin 5s infinite;
+}
+
+/* Animation enlarge
+------------------------------------------*/
+
+@-webkit-keyframes enlarge {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes enlarge {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.scale:hover {
+  -webkit-animation: enlarge 2s infinite alternate;
+  -moz-animation: enlarge 2s infinite alternate;
+  -o-animation: enlarge 2s infinite alternate;
+  animation: enlarge 2s infinite alternate;
+}
+
+/* Animation rainbow
+------------------------------------------*/
+
+@-webkit-keyframes rainbow {
+  0% {
+    background: lime;
+  }
+  25% {
+    background: yellow;
+  }
+  75% {
+    background: orange;
+  }
+  100% {
+    background: red;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background: lime;
+  }
+  25% {
+    background: yellow;
+  }
+  75% {
+    background: orange;
+  }
+  100% {
+    background: red;
+  }
+}
+
+.cameleon {
+  border-radius:50%;
+  -webkit-animation: rainbow 5s infinite;
+  animation: rainbow 5s infinite;
+}
+
+/* Animation position
+------------------------------------------*/
+
+@-webkit-keyframes position {
+  0% {
+    left:0;
+  }
+  25% {
+    left:200px;
+  }
+  75% {
+    left:400px;
+  }
+  100% {
+    left:800px;
+  }
+}
+
+@keyframes position {
+  0% {
+    left:0;
+  }
+  25% {
+    left:200px;
+  }
+  75% {
+    left:400px;
+  }
+  100% {
+    left:800px;
+  }
+}
+
+.move {
+  position:fixed;
+  bottom:0;
+  -webkit-animation: position 5s infinite alternate;
+  animation: position 5s infinite alternate;
+}
