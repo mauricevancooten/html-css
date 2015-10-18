@@ -27,10 +27,9 @@ a:hover {
 
 .sticky {
 	margin: 0 auto;
-	padding: .5em auto;
 	width:100%;
 	position:fixed;
-	background:#eee;
+	background:#eeeeee;
 	background: rgba(238,238,238,0.7);
 	top:0;
 }
@@ -44,7 +43,7 @@ footer {
 }
 
 .wrapper {
-	background: #fff;
+	background: #ffffff;
 	padding:1em 0;
 }
 
@@ -57,32 +56,23 @@ section {
 
 nav ul {
 	padding:0;
+	list-style:none;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
 }
 
 nav ul li {
-	float: left;
-	margin-right: .5em;
-	list-style:none;
+	margin-right: .5em;	
 }
 
 nav ul li a {
 	padding: .5em 1em;
-	background:#ccc;
+	background:#cccccc;
 	border-radius: 15px;
 	transition: all 1s ease-in-out;
 }
 
 nav ul li a:hover {
 	background: pink;
-}
-
-/* Misc.
-------------------------------------------*/
-
-.clearfix:after {
-	content:".";
-	display:block;
-	height: 0;
-	clear:both;
-	visibility:hidden;
 }
