@@ -2,27 +2,39 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Responsive Images</title>
 	<link rel="stylesheet" href="styles.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="picturefill.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-<div id="wrapper">
-		
-	<div id="container">
+	<header>
 
-	<img alt="something" src="images/image-768x514.jpg"
-	srcset="images/image-360x241.jpg 360w,
-			images/image-480x321.jpg 480w,
-			images/image-640x428.jpg 640w,
-			images/image-768x514.jpg 768w" sizes="88vw">
+		<h1>Responsive Images</h1>
+
+	</header>
+
+	<div class="wrapper">
+			
+		<div class="container">
+
+		<img alt="Damián Ortega concrete cubes" src="images/image-360x360.jpg"
+		srcset="images/image-360x360.jpg 360w,
+				images/image-480x480.jpg 480w,
+				images/image-640x640.jpg 640w,
+				images/image-768x768.jpg 768w,
+				images/image-1080x1080.jpg 768w" sizes="88vw">
+
+		</div>
+
 	</div>
 
+	<footer>
 
+		<small>Powered by <a href="http://github.com">Github</small>
+		
+	</footer>
 
-</div>
 </body>
 </html>
