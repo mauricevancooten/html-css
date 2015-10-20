@@ -7,7 +7,7 @@ Author: Maurice van Cooten
 */
 
 body {
-	background: #eee;
+	background: #eeeeee;
 	font-size: 16px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin:0;
@@ -35,7 +35,7 @@ footer {
 
 .wrapper {
 	padding:1em 0;
-	background: #fff;
+	background: #ffffff;
 }
 
 /* Gallery
@@ -43,12 +43,14 @@ footer {
 
 .gallery {
 	padding:0;
+	list-style:none;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
 }
 
 .gallery li {
 	margin-right: 1em;
-	list-style:none;
-	float:left;
 }
 
 .gallery img {
@@ -59,42 +61,30 @@ footer {
 	border: 6px solid pink;
 }
 
+.gallery li .item {
+	position:relative;
+	overflow:hidden;
+}
+
+.gallery li .item span {
+	position:absolute;
+	bottom:-50px;
+	left:0;
+	text-align:center;
+	width:100%;
+	background:rgba(250,250,250,0.8);
+	padding:.7em 0 1.2em 0;
+	transition: 1s all ease-in-out;
+}
+
+.gallery li .item:hover span {
+	bottom:0;
+}
+
 .gallery a {
 	display:block;
 }
 
 .gallery img {
 	display:block;
-}
-
-.gallery li div.item {
-	position:relative;
-	text-align:center;
-	overflow:hidden;
-}
-
-.gallery li div.item span {
-	text-align:center;
-	position:absolute;
-	background:rgba(250,250,250,0.8);
-	padding:1em 0;
-	bottom:-50px;
-	left:0;
-	width:100%;
-	transition: 1s all ease-in-out;
-}
-
-.gallery li div.item:hover span {
-	bottom:0;
-}
-
-/* Misc.
-------------------------------------------*/
-
-.clearfix:after {
-	content:".";
-	display:block;
-	height: 0;
-	clear:both;
-	visibility:hidden;
 }

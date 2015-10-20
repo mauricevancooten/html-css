@@ -7,7 +7,7 @@ Author: Maurice van Cooten
 */
 
 body {
-	background: #eee;
+	background: #eeeeee;
 	font-size: 16px;
 	margin:0;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -35,7 +35,7 @@ footer {
 
 .wrapper {
 	padding: 1em 0;
-	background: #fff;
+	background: #ffffff;
 }
 
 /* Gallery
@@ -43,12 +43,14 @@ footer {
 
 .gallery {
 	padding:0;
+	list-style:none;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
 }
 
 .gallery li {
 	margin-right: 1em;
-	list-style:none;
-	float:left;
 }
 
 .gallery img {
@@ -57,15 +59,4 @@ footer {
 
 .gallery img:hover {
 	border: 6px solid pink;
-}
-
-/* misc.
-------------------------------------------*/
-
-.clearfix:after {
-	content:".";
-	display:block;
-	height: 0;
-	clear:both;
-	visibility:hidden;
 }
