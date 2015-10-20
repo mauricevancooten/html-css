@@ -7,7 +7,7 @@ Author: Maurice van Cooten
 */
 
 body {
-	background: #eee;
+	background: #eeeeee;
 	font-size: 16px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin:0;
@@ -35,14 +35,25 @@ footer {
 
 .wrapper {
 	padding:1em 0;
-	background: #fff;
+	background: #ffffff;
+}
+
+.grid {
+	padding:0;
+	list-style:none;
+	display:flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap:wrap;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap;
 }
 
 .grid li {
-	width:190px;
 	margin:0 1em 1em 0;
-	list-style:none;
-	float:left;
+	width:190px;
+	text-align:center;
 }
 
 /* Border Radius
@@ -50,102 +61,91 @@ footer {
 
 .box-1 {
 	background:crimson;
-	height:190px;
 	width:190px;
+	height:190px;
 	border-radius:0;
 }
 
 .box-2 {
 	background:crimson;
-	height:190px;
 	width:190px;
+	height:190px;
 	border-radius:35px;
 }
 
 .box-3 {
 	background:crimson;
-	height:190px;
 	width:190px;
-	border-radius:95px;
+	height:190px;
+	border-radius:50%;
 }
 
 .box-4 {
 	background:crimson;
-	height:190px;
 	width:190px;
+	height:190px;
 	border-radius:60px;
 }
 
 .box-5 {
 	background:crimson;
-	height:190px;
 	width:190px;
+	height:190px;
 	border-radius:0 60px;
 }
 
 .box-6 {
 	background:crimson;
-	height:190px;
 	width:190px;
+	height:190px;
 	border-radius:60px 0;	
 }
 
 .box-7 {
 	background:crimson;
-	height:190px;
 	width:190px;
+	height:190px;
 	border-radius:0 0 60px;	
 }
 
 .box-8 {
 	background:crimson;
-	height:190px;
 	width:190px;
+	height:190px;
 	border-radius:0 60px 0;
 }
 
 .box-9 {
 	background:crimson;
-	height:190px;
 	width:190px;
+	height:190px;
 	border-radius:60px 0 0;
 }
 
 .box-10 {
 	background:crimson;
-	height:190px;
 	width:190px;
+	height:190px;
 	border-radius:60px 0 0 0;
 }
 
 .box-11 {
 	background:crimson;
-	height:190px;
 	width:190px;
+	height:190px;
 	border-radius:0 60px 0 0;
 }
 
 .box-12 {
 	background:crimson;
-	height:190px;
 	width:190px;
+	height:190px;
 	border-radius:0 0 60px 0;
 }
 
 .box-13 {
 	background:crimson;
-	height:190px;
 	width:190px;
+	height:190px;
 	border-radius:0 0 0 60px;
-}
-
-/* Misc.
-------------------------------------------*/
-
-.clearfix:after {
-	content:".";
-	display:block;
-	height: 0;
-	clear:both;
-	visibility:hidden;
 }
