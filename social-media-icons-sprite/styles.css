@@ -7,7 +7,7 @@ Author: Maurice van Cooten
 */
 
 body {
-	background: #eee;
+	background: #eeeeee;
 	font-size: 16px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin:0;
@@ -35,19 +35,19 @@ footer {
 
 .wrapper {
 	padding: 1em 0;
-	background: #fff;
+	background: #ffffff;
 }
 
 /* Social Media.
 ------------------------------------------*/
 
 .social-channels {
+	display:flex;
 	list-style: none;
 	padding: 0;
 }
 
 .social-channels li {
-	display: inline-block;
 	margin-right: .5em;
 	border-radius: 3px;
 }
@@ -59,7 +59,7 @@ footer {
 .facebook a {
 	width:33px;
 	height:33px;
-	background: url(images/sprite.png);
+	background: url(img/sprite.png);
 	background-position:0 66px;
 }
 
@@ -70,7 +70,7 @@ footer {
 .github a {
 	width:33px;
 	height:33px;
-	background: url(images/sprite.png);
+	background: url(img/sprite.png);
 	background-position:66px 66px;
 }
 
@@ -81,7 +81,7 @@ footer {
 .flickr a {
 	width:33px;
 	height:33px;
-	background: url(images/sprite.png);
+	background: url(img/sprite.png);
 	background-position:33px 66px;
 }
 
@@ -92,7 +92,7 @@ footer {
 .googleplus a {
 	width:33px;
 	height:33px;
-	background: url(images/sprite.png);
+	background: url(img/sprite.png);
 	background-position:99px 66px;
 }
 
@@ -103,7 +103,7 @@ footer {
 .linkedin a {
 	width:33px;
 	height:33px;
-	background: url(images/sprite.png);
+	background: url(img/sprite.png);
 	background-position:132px 66px;
 }
 
@@ -114,7 +114,7 @@ footer {
 .pinterest a {
 	width:33px;
 	height:33px;
-	background: url(images/sprite.png);
+	background: url(img/sprite.png);
 	background-position:165px 66px;
 }
 
@@ -125,7 +125,7 @@ footer {
 .twitter a {
 	width:33px;
 	height:33px;
-	background: url(images/sprite.png);
+	background: url(img/sprite.png);
 	background-position:198px 66px;
 }
 
@@ -136,7 +136,7 @@ footer {
 .youtube a {
 	width:33px;
 	height:33px;
-	background: url(images/sprite.png);
+	background: url(img/sprite.png);
 	background-position:231px 66px;
 }
 
