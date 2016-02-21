@@ -57,6 +57,9 @@ display: block;
 width: 32px;
 height: 32px;
 background-size: 32px 32px;
+text-indent: 110%;
+white-space: nowrap;
+overflow: hidden;
 border-radius: 3px;
 }
 
@@ -66,35 +69,35 @@ border-radius: 3px;
 }
 
 .social-channels a.facebook {
-background-image: url(images/facebook.png);
+background-image: url(images/facebook.svg);
 }
 
 .social-channels a.twitter {
-background-image: url(images/twitter.png);
+background-image: url(images/twitter.svg);
 }
 
 .social-channels a.youtube {
-background-image: url(images/youtube.png);
+background-image: url(images/youtube.svg);
 }
 
 .social-channels a.linkedin {
-background-image: url(images/linkedin.png);
+background-image: url(images/linkedin.svg);
 }
 
 .social-channels a.github {
-background-image: url(images/github.png);
+background-image: url(images/github.svg);
 }
 
 .social-channels a.flickr {
-background-image: url(images/flickr.png);
+background-image: url(images/flickr.svg);
 }
 
 .social-channels a.googleplus {
-background-image: url(images/googleplus.png);
+background-image: url(images/googleplus.svg);
 }
 
 .social-channels a.pinterest {
-background-image: url(images/pinterest.png);
+background-image: url(images/pinterest.svg);
 }
 
 /* Misc.

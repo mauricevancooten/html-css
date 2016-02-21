@@ -7,7 +7,7 @@ Author: Maurice van Cooten
 */
 
 body {
-	background: #eee;
+	background: #eeeeee;
 	font-size: 16px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin:0;
@@ -30,27 +30,26 @@ header,
 footer {
 	margin: 0 auto;
 	width: 88%;
-	max-width: 960px;
-		
+	max-width: 1440px;	
 }
 
 .wrapper {
 	padding: 1em 0;
-	background: #fff;
+	background: #ffffff;
 }
 
-/* Lists
+/* Bespoke Bullet Icon
 ------------------------------------------*/
 
-.list--no-bullets {
+.no-bullets {
 	padding:0;
 	list-style:none;
 }
 
-.minus {
+.bullet {
 	height:16px;
 	width:16px;
-	margin:0 .5em 0 1em;
+	margin:0 .3em -.1em 1em;
 	display:inline-block;
-	background: url(images/minus-icon.png);
+	background: url(images/bullet.png);
 }

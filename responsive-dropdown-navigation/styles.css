@@ -45,6 +45,7 @@ nav ul {
 	padding:0;
 	margin:0 auto;
 	max-width:960px;
+	display:flex;
 }
 
 nav ul li {
@@ -73,17 +74,6 @@ nav ul li a {
 	display:block;
 }
 
-/* Misc.
-------------------------------------------*/
-
-.clearfix:after {
-	content:".";
-	display:block;
-	height: 0;
-	clear:both;
-	visibility:hidden;
-}
-
 /* Media Queries
 ------------------------------------------*/
 
@@ -106,14 +96,14 @@ nav ul li a {
 	  	border-left:1px solid #fff;
 	}
 
-	 nav ul li ul {
+	nav ul li ul {
 		padding:0;
-	    position: absolute;
-
-	    width: 19.8%;
-	    max-width:190px;
-	    left: -999em;
-	    float: left;
+	  position: absolute;
+	  width: 19.8%;
+	  max-width:190px;
+	  left: -999em;
+	  display:flex;
+	  flex-direction:column;
 	}
 
 	nav ul li ul li {
