@@ -14,7 +14,7 @@ body {
 }
 
 a {
-	color:crimson;
+	color: crimson;
 	text-decoration: none;
 }
 
@@ -34,112 +34,71 @@ footer {
 }
 
 .wrapper {
+	width: 100%;
 	padding: 1em 0;
 	background: #ffffff;
 }
 
-/* Social Media.
+/* Social media sprite
 ------------------------------------------*/
 
 .social-channels {
-	display:flex;
-	list-style: none;
-	padding: 0;
+list-style: none;
+padding: 0;
 }
 
 .social-channels li {
-	margin-right: .5em;
-	border-radius: 3px;
+display: inline-block;
+margin-right: .5em;
 }
 
-.social-channels li a {
-	display:block;
+.social-channels a {
+display: block;
+width: 32px;
+height: 32px;
+text-indent: 110%;
+white-space: nowrap;
+overflow: hidden;
+border-radius: 3px;
+transition: all .2s ease-in-out;
 }
 
-.facebook a {
-	width:33px;
-	height:33px;
-	background: url(img/sprite.png);
-	background-position:0 66px;
+.social-channels a:hover {
+opacity:.7;
 }
 
-.facebook:hover a {
-	background-position:0 33px;
+.facebook, 
+.twitter, 
+.youtube, 
+.linkedin, 
+.github, 
+.flickr, 
+.googleplus, 
+.pinterest {
+	background: url(images/sprite.svg);
 }
 
-.github a {
-	width:33px;
-	height:33px;
-	background: url(img/sprite.png);
-	background-position:66px 66px;
+.facebook {
+	background-position:0 0;
 }
-
-.github:hover a {
-	background-position:66px 33px;
+.twitter {
+	background-position: 0 32px;
 }
-
-.flickr a {
-	width:33px;
-	height:33px;
-	background: url(img/sprite.png);
-	background-position:33px 66px;
+.youtube {
+	background-position: 64px 32px;
+} 
+.github{
+	background-position: 0 64px;
 }
-
-.flickr:hover a {
-	background-position:33px 33px;
+.linkedin {
+	background-position: 32px 0;
+} 
+.flickr{
+	background-position:64px 0;
 }
-
-.googleplus a {
-	width:33px;
-	height:33px;
-	background: url(img/sprite.png);
-	background-position:99px 66px;
-}
-
-.googleplus:hover a {
-	background-position:99px 33px;
-}
-
-.linkedin a {
-	width:33px;
-	height:33px;
-	background: url(img/sprite.png);
-	background-position:132px 66px;
-}
-
-.linkedin:hover a {
-	background-position:132px 33px;
-}
-
-.pinterest a {
-	width:33px;
-	height:33px;
-	background: url(img/sprite.png);
-	background-position:165px 66px;
-}
-
-.pinterest:hover a {
-	background-position:165px 33px;
-}
-
-.twitter a {
-	width:33px;
-	height:33px;
-	background: url(img/sprite.png);
-	background-position:198px 66px;
-}
-
-.twitter:hover a {
-	background-position:198px 33px;
-}
-
-.youtube a {
-	width:33px;
-	height:33px;
-	background: url(img/sprite.png);
-	background-position:231px 66px;
-}
-
-.youtube:hover a {
-	background-position:231px 33px;
+.googleplus {
+	background-position:64px 64px;
+} 
+.pinterest {
+	background-position:32px 64px;
 }

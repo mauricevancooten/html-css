@@ -7,7 +7,7 @@ Author: Maurice van Cooten
 */
 
 body {
-	background: #eee;
+	background: #eeeeee;
 	font-size: 16px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin:0;
@@ -36,7 +36,7 @@ footer {
 .wrapper {
 	width: 100%;
 	padding: 1em 0;
-	background: #fff;
+	background: #ffffff;
 }
 
 /* social media.
@@ -56,57 +56,45 @@ margin-right: .5em;
 display: block;
 width: 32px;
 height: 32px;
-background-size: 32px 32px;
 text-indent: 110%;
 white-space: nowrap;
 overflow: hidden;
 border-radius: 3px;
+transition: all .2s ease-in-out;
 }
 
 .social-channels a:hover {
-opacity:.8;
-border-radius: 3px;
+opacity:.7;
 }
 
-.social-channels a.facebook {
+.facebook {
 background-image: url(images/facebook.svg);
 }
 
-.social-channels a.twitter {
+.twitter {
 background-image: url(images/twitter.svg);
 }
 
-.social-channels a.youtube {
+.youtube {
 background-image: url(images/youtube.svg);
 }
 
-.social-channels a.linkedin {
+.linkedin {
 background-image: url(images/linkedin.svg);
 }
 
-.social-channels a.github {
+.github {
 background-image: url(images/github.svg);
 }
 
-.social-channels a.flickr {
+.flickr {
 background-image: url(images/flickr.svg);
 }
 
-.social-channels a.googleplus {
+.googleplus {
 background-image: url(images/googleplus.svg);
 }
 
-.social-channels a.pinterest {
+.pinterest {
 background-image: url(images/pinterest.svg);
-}
-
-/* Misc.
-------------------------------------------*/
-
-.clearfix:after {
-	content:".";
-	display:block;
-	height: 0;
-	clear:both;
-	visibility:hidden;
 }
