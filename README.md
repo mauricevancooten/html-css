@@ -1,6 +1,6 @@
-# HTML &amp; CSS Snippets
+# HTML &amp; CSS
 
-Course related content HTML / CSS.
+Examples
 
 ## License
 
