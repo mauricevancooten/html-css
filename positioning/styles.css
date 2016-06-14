@@ -1,0 +1,66 @@
+body {
+  background: #eeeeee;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
+}
+
+.wrapper {
+  padding: 1em 0;
+  background: #ffffff;
+}
+
+
+/* Positioning
+------------------------------------------*/
+
+.first {
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 0, 0, 0.4);
+  /* red */
+  position: fixed;
+  top: 0;
+  left: 6%;
+}
+
+.second {
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 0, 0.4);
+  /* yellow */
+  position: relative;
+  left: 150px;
+  top: 54px;
+}
+
+.third {
+  width: 300px;
+  height: 300px;
+  background: rgba(0, 255, 255, 0.4);
+  /* blue */
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
