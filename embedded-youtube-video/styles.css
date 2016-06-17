@@ -1,26 +1,19 @@
-/*
-
-Title: Stylesheet Template
-
-Author: Maurice van Cooten
-
-*/
-
 body {
-	background: #eeeeee;
-	font-size: 16px;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	margin:0;
+  background: #eeeeee;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
 }
 
 a {
-	color: crimson;
-	text-decoration: none;
+  color: crimson;
+  text-decoration: none;
 }
 
 a:hover {
-	color: red;
+  color: red;
 }
+
 
 /* Layout
 ------------------------------------------*/
@@ -28,35 +21,38 @@ a:hover {
 header,
 .container,
 footer {
-	margin: 0 auto;
-	width:88%;
-	max-width: 1080px;		
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
 }
 
 .wrapper {
-	padding:1em 0;
-	background: #fff;
+  padding: 1em 0;
+  background: #fff;
 }
+
 
 /* Video
 ------------------------------------------*/
 
 .video-container {
-	max-width:600px;
+  max-width: 600px;
 }
 
 .video {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 
 .video iframe,
 .video object,
 .video embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

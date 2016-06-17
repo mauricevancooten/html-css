@@ -1,26 +1,19 @@
-/*
-
-Title: Stylesheet Template
-
-Author: Maurice van Cooten
-
-*/
-
 body {
-	background: #eeeeee;
-	font-size: 16px;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	margin:0;
+  background: #eeeeee;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
 }
 
 a {
-	color: crimson;
-	text-decoration: none;
+  color: crimson;
+  text-decoration: none;
 }
 
 a:hover {
-	color: red;
+  color: red;
 }
+
 
 /* Layout
 ------------------------------------------*/
@@ -28,28 +21,29 @@ a:hover {
 header,
 .container,
 footer {
-	margin: 0 auto;
-	width: 88%;
-	max-width: 1440px;	
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1440px;
 }
 
 .wrapper {
-	padding: 1em 0;
-	background: #ffffff;
+  padding: 1em 0;
+  background: #ffffff;
 }
+
 
 /* Bespoke Bullet Icon
 ------------------------------------------*/
 
 .no-bullets {
-	padding:0;
-	list-style:none;
+  padding: 0;
+  list-style: none;
 }
 
 .bullet {
-	height:16px;
-	width:16px;
-	margin:0 .3em -.1em 1em;
-	display:inline-block;
-	background: url(images/bullet.png);
+  height: 16px;
+  width: 16px;
+  margin: 0 .3em -.1em 1em;
+  display: inline-block;
+  background: url(images/bullet.png);
 }
