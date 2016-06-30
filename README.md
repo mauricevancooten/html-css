@@ -1,6 +1,6 @@
 # HTML &amp; CSS
 
-Examples
+Example components
 
 ## License
 
