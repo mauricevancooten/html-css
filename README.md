@@ -1,4 +1,4 @@
-# HTML &amp; CSS
+# HTML & CSS
 
 Examples
 
