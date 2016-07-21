@@ -37,8 +37,6 @@ footer {
 .gallery {
 	padding:0;
 	list-style:none;
-	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
 }
 
