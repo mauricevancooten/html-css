@@ -18,12 +18,10 @@ a:hover {
 ------------------------------------------*/
 
 .sticky {
-	margin: 0 auto;
-	width:100%;
 	position:fixed;
-	background:#eeeeee;
-	background: rgba(238,238,238,0.7);
 	top:0;
+	background: rgba(238,238,238,0.7);
+	width:100%;
 }
 
 header,
@@ -40,7 +38,7 @@ footer {
 }
 
 section {
-	padding-top:4em;
+	padding-top:3em;
 }
 
 /* Navigation
@@ -49,8 +47,6 @@ section {
 nav ul {
 	padding:0;
 	list-style:none;
-	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
 }
 
