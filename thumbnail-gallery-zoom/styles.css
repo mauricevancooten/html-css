@@ -31,20 +31,25 @@ footer {
   background: #ffffff;
 }
 
+
 /* Gallery
 ------------------------------------------*/
 
 .gallery {
-  list-style:none;
+  list-style: none;
   padding: 0;
-  display:flex;
+  display: flex;
+}
+
+.gallery li {
+  margin-right: .5em;
 }
 
 .gallery li div {
-  overflow:hidden;
-  width:180px;
-  height:120px;
-  margin:0 auto;
+  overflow: hidden;
+  width: 270px;
+  height: 270px;
+  margin: 0 auto;
 }
 
 .gallery img {
@@ -57,7 +62,7 @@ footer {
   transform: scale(1);
 }
 
-.gallery a, .gallery img {
-  display:block;
+.gallery a,
+.gallery img {
+  display: block;
 }
-
