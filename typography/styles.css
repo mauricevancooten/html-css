@@ -1,9 +1,10 @@
 body {
-	background: #eeeeee;
-	font-size: 16px;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	margin:0;
+  background: #eeeeee;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
 }
+
 
 /* Layout
 ------------------------------------------*/
@@ -11,107 +12,126 @@ body {
 header,
 .container,
 footer {
-	margin: 0 auto;
-	width:88%;
-	max-width: 1080px;
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
 }
+
+.wrapper {
+  padding: 1em 0;
+  background: #ffffff;
+}
+
 
 /* Typography
 ------------------------------------------*/
 
-.wrapper {
-	padding:1em 0;
-	background: #ffffff;	
-}
-
 p {
-	line-height: 1.5;
-	margin-top:2em;
-	margin-bottom:1.5em;
+  line-height: 1.5em;
+  margin-top: 2em; /* (3 / 3) * 2 */
+  margin-bottom: 1em; /* 3 / 3 */
 }
 
 h1 {
-	font-size:1.8em; /* 28.8px / 16px */ 
-	line-height:1.8;
-	margin-top:2.4em; /* (3.6 / 3) * 2 */
-	margin-bottom:1.2em; /* 3.6 / 3 */
+  font-size: 1.8em; /* 28.8px / 16px */
+  line-height: 1.8;
+  margin-top: 2.4em; /* (3.6 / 3) * 2 */
+  margin-bottom: 1.2em; /* 3.6 / 3 */
 }
 
 h2 {
-	font-size:1.6em; /* 25.6px / 16px */
-	line-height:1.6;
-	margin-top:2.14em; /* (3.2 / 3) * 2 */
-	margin-bottom:1.07em; /* 3.2 / 3 */
+  font-size: 1.6em; /* 25.6px / 16px */
+  line-height: 1.6;
+  margin-top: 2.14em; /* (3.2 / 3) * 2 */
+  margin-bottom: 1.07em; /* 3.2 / 3 */
 }
 
 h3 {
-	font-size:1.4em; /* 22.4px / 16px */
-	line-height:1.4;
-	margin-top:1.86em; /* (2.8 / 3) * 2 */
-	margin-bottom:.93em; /* 2.8 / 3 */
+  font-size: 1.4em; /* 22.4px / 16px */
+  line-height: 1.4;
+  margin-top: 1.86em; /* (2.8 / 3) * 2 */
+  margin-bottom: .93em; /* 2.8 / 3 */
 }
 
 h4 {
-	font-size:1.2em; /* 19.2px / 16px */
-	line-height:1.2;
-	margin-top:1.6em;
-	margin-bottom:.8em;
+  font-size: 1.2em; /* 19.2px / 16px */
+  line-height: 1.2;
+  margin-top: 1.6em;
+  margin-bottom: .8em;
 }
 
 h5 {
-	font-size:1.1em; /* 17.6px / 16px */
-	line-height:1.1;
-	margin-top:1.46em; 
-	margin-bottom:.73em;
+  font-size: 1.1em; /* 17.6px / 16px */
+  line-height: 1.1;
+  margin-top: 1.46em;
+  margin-bottom: .73em;
 }
 
 h6 {
-	font-size:.9em; /* 14.4px / 16px */
-	line-height:.9em;
-	margin-top:1.2em;
-	margin-bottom:.6em;
+  font-size: .9em; /* 14.4px / 16px */
+  line-height: .9em;
+  margin-top: 1.2em;
+  margin-bottom: .6em;
 }
 
 a {
-	color:crimson;
-	text-decoration:none;
+  color: crimson;
+  text-decoration: none;
 }
 
 a:hover {
-	color:red;
+  color: red;
 }
 
 .text-center {
-	text-align:center;
+  text-align: center;
 }
 
 .text-right {
-	text-align:right;
+  text-align: right;
 }
 
 .text-justify {
-	text-align:justify;
+  text-align: justify;
 }
 
 blockquote {
-	border-left: 5px solid navy;
-	padding-left:2em;
-	margin:0;
+  border-left: 5px solid navy;
+  padding-left: 2em;
+  margin: 0;
 }
 
 hr {
-	border: 2px dashed navy;
+  border: 2px dashed navy;
 }
+
 
 /* Image replacement technique */
 
 .logo h1 {
-	left: -999em;
-	position:absolute;
+  left: -999em;
+  position: absolute;
 }
 
 .logo {
-	height: 100px;
-	width:100px;
-	background:url(images/logo.png);
+  height: 100px;
+  width: 100px;
+  background: url(images/logo.png);
+}
+
+
+/* Bespoke Bullet Icon
+------------------------------------------*/
+
+.no-bullets {
+  padding: 0;
+  list-style: none;
+}
+
+.bullet {
+  height: 16px;
+  width: 16px;
+  margin: 0 .3em -.1em 1em;
+  display: inline-block;
+  background: url(images/bullet.png);
 }
