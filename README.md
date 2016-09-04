@@ -2,6 +2,6 @@
 
 Examples
 
-## License
+## Licence
 
-MIT license.
+Licensed under MIT licence.
