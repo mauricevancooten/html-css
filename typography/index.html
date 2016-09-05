@@ -6,6 +6,7 @@
 		<meta name="robots" content="noindex, nofollow">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" media="print" href="print.css">
 	</head>
 
 	<body>
@@ -82,6 +83,10 @@
 					<li><span class="bullet"></span>Item Three</li>
 				</ul>
 
+				<h2>Print Button</h2>
+
+				<button>Print</button>
+
 			</div> <!-- .container-->
 
 		</div> <!-- .wrapper-->
@@ -91,6 +96,12 @@
 			<small>Powered by NGINX</small>
 
 		</footer> 
+
+		<script>
+			document.querySelector('button').addEventListener('click', function () {
+				window.print();
+			});
+		</script>
 
 	</body>
 
