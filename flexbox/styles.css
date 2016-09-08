@@ -42,7 +42,15 @@ img {
 .gallery,
 .gallery-2,
 .gallery-3,
-.gallery-4 {
+.gallery-4,
+.gallery-5,
+.gallery-6,
+.gallery-7,
+.gallery-8,
+.gallery-9,
+.gallery-10,
+.gallery-11,
+.gallery-12 {
   background: pink;
   display: flex;
 }
@@ -50,7 +58,15 @@ img {
 .gallery img,
 .gallery-2 img,
 .gallery-3 img,
-.gallery-4 img {
+.gallery-4 img,
+.gallery-5 img,
+.gallery-6 img,
+.gallery-7 img,
+.gallery-8 img,
+.gallery-9 img,
+.gallery-10 img,
+.gallery-11 img,
+.gallery-12 img {
   display: block;
 }
 
@@ -72,4 +88,36 @@ img {
 .gallery-4 {
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.gallery-5 .foo {
+  order:1;
+}
+
+.gallery-6 {
+  flex-direction:reverse;
+}
+
+.gallery-7 {
+  flex-direction:column;
+}
+
+.gallery-8 .baz {
+  flex-grow:2;
+}
+
+.gallery-9 .bar {
+  /*flex-shrink:2;*/
+}
+
+.gallery-10 {
+  align-items:flex-end;
+}
+
+.gallery-11{
+  flex-direction:center;
+}
+
+.gallery-12{
+  flex-direction:baseline;
 }
