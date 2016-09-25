@@ -1,0 +1,120 @@
+body {
+    background: #eeeeee;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+    margin: 0 auto;
+    width: 88%;
+    max-width: 1080px;
+}
+
+.wrapper {
+    padding: 1em 0;
+    background: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Flex Box Gallery
+------------------------------------------*/
+
+.gallery,
+.gallery-2,
+.gallery-3,
+.gallery-4,
+.gallery-5,
+.gallery-6,
+.gallery-7,
+.gallery-8,
+.gallery-9,
+.gallery-10,
+.gallery-11 {
+    background: pink;
+    display: flex;
+}
+
+.gallery img,
+.gallery-2 img,
+.gallery-3 img,
+.gallery-4 img,
+.gallery-5 img,
+.gallery-6 img,
+.gallery-7 img,
+.gallery-8 img,
+.gallery-9 img,
+.gallery-10 img,
+.gallery-11 img {
+    display: block;
+}
+
+.gallery {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.gallery-2 {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-3 {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery-4 {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-5 .foo {
+    order: 1;
+    /* Use -1 to bring forward */
+}
+
+.gallery-6 {
+    flex-direction: row-reverse;
+}
+
+.gallery-7 {
+    flex-direction: column;
+}
+
+.gallery-8 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-9 {
+    align-items: flex-end;
+}
+
+.gallery-10 {
+    align-items: center;
+}
+
+.gallery-9 {
+    align-items: baseline;
+}
