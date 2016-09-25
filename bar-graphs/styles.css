@@ -1,17 +1,17 @@
 body {
-  background: #eeeeee;
-  font-size: 16px;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  margin: 0;
+    background: #eeeeee;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0;
 }
 
 a {
-  color: crimson;
-  text-decoration: none;
+    color: crimson;
+    text-decoration: none;
 }
 
 a:hover {
-  color: red;
+    color: red;
 }
 
 
@@ -21,72 +21,70 @@ a:hover {
 header,
 .container,
 footer {
-  margin: 0 auto;
-  width: 88%;
-  max-width: 1080px;
+    margin: 0 auto;
+    width: 88%;
+    max-width: 1080px;
 }
 
 .wrapper {
-  padding: 1em 0;
-  background: #ffffff;
+    padding: 1em 0;
+    background: #ffffff;
 }
 
 
-/* Horizontal bar graph
+/* Horizontal Bar Graph
 ------------------------------------------*/
 
 .mortalities {
-  list-style: none;
-  padding: 0;
-  max-width: 400px;
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
 }
 
 .mortalities li {
-  height: 20px;
-  position: relative;
-  margin-bottom: .2em;
+    height: 30px;
+    position: relative;
 }
 
 .mortalities li span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: aqua;
-  display: block;
-  margin-left: 12em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: pink;
+    margin-left: 15em;
+    text-indent: -32px;
 }
 
 
-/* Vertical bar graph
+/* Vertical Bar Graph
 ------------------------------------------*/
 
 .decline {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  margin-bottom: 3em;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-bottom: 3em;
 }
 
 .decline li {
-  position: relative;
-  width: 100px;
-  margin-right: .2em;
-  height: 8em;
-  text-align: center;
+    position: relative;
+    width: 100px;
+    margin-right: .2em;
+    height: 8em;
+    text-align: center;
 }
 
 .decline li em {
-  position: absolute;
-  left: 0;
-  bottom: -2.5em;
-  width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -2.5em;
+    width: 100%;
 }
 
 .decline li span {
-  position: absolute;
-  bottom: -1em;
-  left: 0;
-  width: 100%;
-  background: aqua;
-  height: 100%;
+    position: absolute;
+    bottom: -1em;
+    left: 0;
+    width: 100%;
+    background: pink;
 }
