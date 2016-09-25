@@ -49,8 +49,7 @@ img {
 .gallery-7,
 .gallery-8,
 .gallery-9,
-.gallery-10,
-.gallery-11 {
+.gallery-10 {
     background: pink;
     display: flex;
 }
@@ -64,8 +63,7 @@ img {
 .gallery-7 img,
 .gallery-8 img,
 .gallery-9 img,
-.gallery-10 img,
-.gallery-11 img {
+.gallery-10 img {
     display: block;
 }
 
@@ -113,8 +111,4 @@ img {
 
 .gallery-10 {
     align-items: center;
-}
-
-.gallery-9 {
-    align-items: baseline;
 }
