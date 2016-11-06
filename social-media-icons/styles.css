@@ -1,18 +1,19 @@
 body {
-	background: #eeeeee;
-	font-size: 16px;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	margin:0;
+    background: #eeeeee;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0;
 }
 
 a {
-	color: crimson;
-	text-decoration: none;
+    color: crimson;
+    text-decoration: none;
 }
 
 a:hover {
-	color: red;
+    color: red;
 }
+
 
 /* Layout
 ------------------------------------------*/
@@ -20,73 +21,75 @@ a:hover {
 header,
 .container,
 footer {
-	margin: 0 auto;
-	width: 88%;
-	max-width: 1080px;		
+    margin: 0 auto;
+    width: 88%;
+    max-width: 1080px;
 }
 
 .wrapper {
-	width: 100%;
-	padding: 1em 0;
-	background: #ffffff;
+    width: 100%;
+    padding: 1em 0;
+    background: #ffffff;
 }
+
 
 /* social media.
 ------------------------------------------*/
 
 .social-channels {
-list-style: none;
-padding: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
 }
 
 .social-channels li {
-display: inline-block;
-margin-right: .5em;
+    margin-right: .5em;
 }
 
-.social-channels a {
-display: block;
-width: 32px;
-height: 32px;
-text-indent: 110%;
-white-space: nowrap;
-overflow: hidden;
-border-radius: 3px;
-transition: all .2s ease-in-out;
+.social-channels li a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 3px;
+    transition: .2s;
+    /* Hide text */
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-.social-channels a:hover {
-opacity:.7;
+.social-channels li a:hover {
+    opacity: .7;
 }
 
 .facebook {
-background-image: url(images/facebook.svg);
+    background-image: url(images/facebook.svg);
 }
 
 .twitter {
-background-image: url(images/twitter.svg);
+    background-image: url(images/twitter.svg);
 }
 
 .youtube {
-background-image: url(images/youtube.svg);
+    background-image: url(images/youtube.svg);
 }
 
 .linkedin {
-background-image: url(images/linkedin.svg);
+    background-image: url(images/linkedin.svg);
 }
 
 .github {
-background-image: url(images/github.svg);
+    background-image: url(images/github.svg);
 }
 
 .flickr {
-background-image: url(images/flickr.svg);
+    background-image: url(images/flickr.svg);
 }
 
 .googleplus {
-background-image: url(images/googleplus.svg);
+    background-image: url(images/googleplus.svg);
 }
 
 .pinterest {
-background-image: url(images/pinterest.svg);
+    background-image: url(images/pinterest.svg);
 }
