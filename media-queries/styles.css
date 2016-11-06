@@ -36,6 +36,9 @@ footer {
 ------------------------------------------*/
 
 @media screen and (min-width: 48em) {
+  h1 {
+    font-size:3em;
+  }
   .container {
     display: flex;
     justify-content: space-between;
