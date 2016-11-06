@@ -55,7 +55,7 @@ footer {
 
 .gallery img {
   
-  transition: all 1s ease-in-out;
+  transition: 1s;
   /*transform-origin: 0 0;*/
 }
 

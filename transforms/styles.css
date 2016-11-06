@@ -34,7 +34,7 @@ footer {
 ------------------------------------------*/
 
 .rotate {
-	transition: all 1s ease-in-out;
+	transition: 1s;
 }
 
 .rotate:hover {
@@ -42,7 +42,7 @@ footer {
 }
 
 .skew {
-	transition: all 1s ease-in-out;
+	transition: 1s;
 }
 
 .skew:hover {
@@ -50,7 +50,7 @@ footer {
 }
 
 .scale {
-	transition: all 1s ease-in-out;
+	transition: 1s;
 }
 
 .scale:hover {
