@@ -58,3 +58,26 @@ footer {
 .scale:hover {
   transform: scale(.8);
 }
+
+.flip {
+  position:relative;
+  width:240px;
+  height:240px;
+  transition:1s;
+  transform-style: preserve-3d;
+}
+
+.flip:hover {
+  transform: rotateY(180deg);
+}
+
+.front {
+  backface-visibility: hidden;
+}
+
+.back {
+  position:absolute;
+  top:0;
+  left:0;
+  transform:rotateY(180deg);
+}
