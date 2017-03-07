@@ -35,8 +35,9 @@ footer {
 
 .overlay {
     background:url(images/cosmic-thing.jpg) no-repeat;
+    background-position:50% 50%;
     background-size:cover;
-    width:800px;
+    max-width:800px;
     height:600px;
 }
 
