@@ -1,17 +1,17 @@
 body {
-    background: #eeeeee;
-    font-size: 16px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    margin: 0;
+  background: #eeeeee;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
 }
 
 a {
-    color: crimson;
-    text-decoration: none;
+  color: crimson;
+  text-decoration: none;
 }
 
 a:hover {
-    color: red;
+  color: red;
 }
 
 
@@ -21,15 +21,15 @@ a:hover {
 header,
 .container,
 footer {
-    margin: 0 auto;
-    width: 88%;
-    max-width: 1080px;
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
 }
 
 .wrapper {
-    width: 100%;
-    padding: 1em 0;
-    background: #ffffff;
+  width: 100%;
+  padding: 1em 0;
+  background: #ffffff;
 }
 
 
@@ -37,29 +37,29 @@ footer {
 ------------------------------------------*/
 
 .social-channels {
-    list-style: none;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  padding: 0;
+  display: flex;
 }
 
 .social-channels li {
-    margin-right: .5em;
+  margin-right: .5em;
 }
 
 .social-channels li a {
-    display: block;
-    width: 32px;
-    height: 32px;
-    border-radius: 3px;
-    transition: .2s;
-    /* Hide text */
-    text-indent: 110%;
-    white-space: nowrap;
-    overflow: hidden;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 3px;
+  transition: .2s;
+  /* Hide text */
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .social-channels li a:hover {
-    opacity: .7;
+  opacity: .7;
 }
 
 .facebook,
@@ -67,40 +67,40 @@ footer {
 .youtube,
 .linkedin,
 .github,
-.flickr,
+.instagram,
 .googleplus,
 .pinterest {
-    background: url(images/sprite.svg);
+  background: url(images/sprite.svg);
 }
 
 .facebook {
-    background-position: 0 0;
+  background-position: 0 0;
 }
 
 .twitter {
-    background-position: 0 -64px;
+  background-position: 0 -64px;
 }
 
 .youtube {
-    background-position: -32px -64px;
+  background-position: -32px -64px;
 }
 
 .github {
-    background-position: 0 -32px;
+  background-position: -32px 0;
 }
 
 .linkedin {
-    background-position: -64px 0;
+  background-position: -64px 0;
 }
 
-.flickr {
-    background-position: -32px 0;
+.instagram {
+  background-position: -32px -32px;
 }
 
 .googleplus {
-    background-position: -32px -32px;
+  background-position: 0 -32px;
 }
 
 .pinterest {
-    background-position: -64px -32px;
+  background-position: -64px -32px;
 }
