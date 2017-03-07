@@ -39,28 +39,23 @@ footer {
   list-style: none;
   padding: 0;
   display: flex;
+  flex-wrap:wrap;
 }
 
 .gallery li {
-  margin-right: .5em;
-}
-
-.gallery li div {
-  position:relative;
-  overflow: hidden;
-  width: 300px;
-  height: 300px;
-
+  margin: .5em .5em 0 0;
 }
 
 .gallery img {
-  
   transition: 1s;
-  /*transform-origin: 0 0;*/
 }
 
 .gallery li:hover img {
   transform: scale(1.1);
+}
+
+.gallery li div {
+  overflow:hidden;
 }
 
 .gallery a,
