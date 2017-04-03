@@ -36,22 +36,20 @@ footer {
 ------------------------------------------*/
 
 .gallery {
-  padding: 0;
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-.gallery li {
+.gallery a {
   margin: 1em 1em 0 0;
 }
 
-.gallery li  {
+.gallery a  {
   position: relative;
   overflow: hidden;
 }
 
-.gallery li span {
+.gallery span {
   position: absolute;
   bottom: -71px;
   left: 0;
@@ -63,7 +61,7 @@ footer {
   transition: 1s;
 }
 
-.gallery li:hover span {
+.gallery a:hover span {
   bottom: 0;
 }
 
