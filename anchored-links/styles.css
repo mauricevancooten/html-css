@@ -18,10 +18,10 @@ a:hover {
 ------------------------------------------*/
 
 .sticky {
-	position:fixed;
-	top:0;
-	background: rgba(238,238,238,0.7);
-	width:100%;
+	position: fixed;
+  top: 0;
+  background: rgba(238, 238, 238, 0.7);
+  width: 100%;
 }
 
 header,
@@ -45,22 +45,19 @@ section {
 ------------------------------------------*/
 
 nav ul {
-	padding:0;
-	list-style:none;
-	display: flex;
+  list-style:none;
+  padding:0;
+  display: flex;
 }
 
-nav ul li {
-	margin-right: .5em;	
+nav a {
+  margin-right: .5em;
+  padding: .5em 1em;
+  background: #cccccc;
+  border-radius: 15px;
+  transition: 1s;
 }
 
-nav ul li a {
-	padding: .5em 1em;
-	background:#cccccc;
-	border-radius: 15px;
-	transition: 1s;
-}
-
-nav ul li a:hover {
-	background: pink;
+nav a:hover {
+  background: pink;
 }
