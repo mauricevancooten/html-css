@@ -1,0 +1,60 @@
+body {
+  background:#eeeeee;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
+}
+
+.wrapper {
+  padding: 1em 0;
+  background: rgba(255,255,255,0.5);
+}
+
+
+/* Animated background
+------------------------------------------*/
+
+@keyframes rainbow {
+  0% {
+    background-position:0% 50%;
+  }
+  25% {
+    background-position:25% 50%;
+  }
+  50% {
+    background-position:50% 50%;
+  }
+  75% {
+    background-position:25% 50%;
+  }
+  100% {
+    background-position:0% 50%;
+  }
+}
+
+body {
+  background: linear-gradient(30deg,orange,yellow,green);
+  background-size: 800% 800%;
+  animation: rainbow 10s infinite;
+}
