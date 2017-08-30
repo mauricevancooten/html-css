@@ -41,17 +41,17 @@ nav ul {
   display: flex;
 }
 
-nav li {
+nav ul li {
   margin-right: .5em;
 }
 
-nav a {
+nav ul li a {
   padding: .5em 1em;
   background: #cccccc;
   border-radius: 15px;
   transition: 1s;
 }
 
-nav a:hover {
+nav ul li a:hover {
   background: pink;
 }
